@@ -185,4 +185,12 @@ bar {
         status_command i3status
 }
 
-exec_always google-chrome-stable
+exec i3-sensible-terminal
+exec google-chrome-stable
+exec spotify
+exec_always feh --bg-scale ~/Pictures/wallpaper.jpeg
+
+assign [class="Gnome-terminal" ] 1
+for_window [class="Google-chrome"] move container to workspace 2
+for_window [title="Google Chrome"] move container to workspace 2
+for_window [class="Spotify"] move to workspace 4
