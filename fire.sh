@@ -3,7 +3,7 @@
 dir=~/.dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 
-things="i3"
+things="i3 nvim"
 
 
 
