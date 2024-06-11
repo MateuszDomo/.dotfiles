@@ -211,7 +211,7 @@ bar {
 exec i3-sensible-terminal
 exec google-chrome-stable
 exec spotify
-exec_always feh --bg-scale ~/Pictures/wallpaper.jpeg
+exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
 exec --no-startup-id compton
 
 assign [class="Gnome-terminal" ] 1
